@@ -1,0 +1,289 @@
+@import url("magic-styles.css");
+
+.mgColor1 {
+   background-color: rgba(255,255,255,255);
+   color: rgba(0,0,0,255);
+ }
+
+.mgBorderColor1 {
+   border-color: rgba(0,0,0,255);
+ }
+
+.mgFocusColor1:focus {
+   color: rgba(0,0,0,255);
+   background-color: rgba(255,255,255,255);
+ }
+
+.mgColor2 {
+   background-color: rgba(255,255,255,255);
+   color: rgba(0,0,0,255);
+ }
+
+.mgBorderColor2 {
+   border-color: rgba(0,0,0,255);
+ }
+
+.mgFocusColor2:focus {
+   color: rgba(0,0,0,255);
+   background-color: rgba(255,255,255,255);
+ }
+
+.mgColor3 {
+   background-color: rgba(171,171,171,255);
+   color: rgba(0,0,0,255);
+ }
+
+.mgBorderColor3 {
+   border-color: rgba(0,0,0,255);
+ }
+
+.mgFocusColor3:focus {
+   color: rgba(0,0,0,255);
+   background-color: rgba(171,171,171,255);
+ }
+
+.mgColor4 {
+   background-color: rgba(255,255,0,255);
+   color: rgba(255,255,0,255);
+ }
+
+.mgBorderColor4 {
+   border-color: rgba(255,255,0,255);
+ }
+
+.mgFocusColor4:focus {
+   color: rgba(255,255,0,255);
+   background-color: rgba(255,255,0,255);
+ }
+
+.mgColor5 {
+   background-color: transparent;
+   color: rgba(0,0,0,255);
+ }
+
+.mgBorderColor5 {
+   border-color: rgba(0,0,0,255);
+ }
+
+.mgFocusColor5:focus {
+   color: rgba(0,0,0,255);
+   background-color: transparent;
+ }
+
+.mgColor6 {
+   background-color: rgba(240,240,240,255);
+   color: rgba(0,0,0,255);
+ }
+
+.mgBorderColor6 {
+   border-color: rgba(0,0,0,255);
+ }
+
+.mgFocusColor6:focus {
+   color: rgba(0,0,0,255);
+   background-color: rgba(240,240,240,255);
+ }
+
+.mgColor7 {
+   background-color: rgba(240,240,240,255);
+   color: rgba(109,109,109,255);
+ }
+
+.mgBorderColor7 {
+   border-color: rgba(109,109,109,255);
+ }
+
+.mgFocusColor7:focus {
+   color: rgba(109,109,109,255);
+   background-color: rgba(240,240,240,255);
+ }
+
+.mgFont1 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont2 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont3 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont4 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont5 {
+   font-family:Microsoft Sans Serif;
+   font-size:14px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont6 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont7 {
+   font-family:Courier New;
+   font-size:12px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont8 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont9 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont10 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont11 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont12 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont13 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont14 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont15 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont16 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont17 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont18 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont19 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont20 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont21 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont22 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont23 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont24 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont25 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont26 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
+.mgFont27 {
+   font-family:Microsoft Sans Serif;
+   font-size:8px;
+   font-style:normal;
+   font-weight:normal;
+ }
+
