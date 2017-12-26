@@ -118,8 +118,7 @@ export abstract class BaseTaskMagicComponent implements OnInit, OnDestroy {
       }
       else {
         this.task.taskId = this.myTaskId;
-        obj = JSON.parse(this.taskDescription);
-        this.task.settemplate(obj);
+        this.task.settemplate(this.taskDescription);
       }
     }
     this.task.buildScreenModeControls();

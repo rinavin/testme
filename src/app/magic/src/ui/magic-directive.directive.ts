@@ -43,6 +43,7 @@ export class MagicDirectiveDirective implements OnInit {
     let events: string[] = ['click', 'dblclick',];// 'mouseenter', 'mouseleave','resize', 'load', 'unload',
     events.forEach(event => {
       this.htmlElement.addEventListener(event, (e) => {
+        console.log(event);
         this.task.insertEvent(event, this.id, this.rowId);
       });
     });

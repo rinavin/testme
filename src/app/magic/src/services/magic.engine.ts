@@ -18,6 +18,14 @@ export class MagicEngine {
   UIBridge: UIBridge = UIBridge.getInstance();
 
   startMagic(httpService: Http) {
+    this.magic.registerExecuteCommands(data => {
+          let list: GuiCommand[];
+         console.log ('got commands!');
+          list = data as GuiCommand[];
+          for (let command in list) {
+            this.refreshDom.next(list[command]);
+          }
+        });
     this.magic.StartMagic(httpService, this.UIBridge);
     // if (!this.isStub) {
     //
