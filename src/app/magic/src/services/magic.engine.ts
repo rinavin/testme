@@ -10,34 +10,25 @@ import {UIBridge, GuiCommand} from "@magic/gui";
 
 @Injectable()
 export class MagicEngine {
-  //magic = window['magic1'];
+  // magic = window['magic1'];
   magic = MagicBridge;
   isStub  = false;
-  //TODO - unregister
+  // TODO - unregister
   refreshDom: Subject<GuiCommand> = new Subject();
-  UIBridge: UIBridge = UIBridge.getInstance();
 
   startMagic(httpService: Http) {
     this.magic.registerExecuteCommands(data => {
-          let list: GuiCommand[];
-         console.log ('got commands!');
-          list = data as GuiCommand[];
-          for (let command in list) {
-            this.refreshDom.next(list[command]);
-          }
-        });
-    this.magic.StartMagic(httpService, this.UIBridge);
-    // if (!this.isStub) {
-    //
-    //   this.magic.start(data => {
-    //     let list: GuiCommand[];
-    //     let obj = JSON.parse(data);
-    //     list = obj as GuiCommand[];
-    //     for (let command in list) {
-    //       this.refreshDom.next(list[command]);
-    //     }
-    //   });
-    // }
+      if (!this.isStub) {
+        let list: GuiCommand[];
+        console.log('got commands!');
+        list = data as GuiCommand[];
+        for (let command in list) {
+          this.refreshDom.next(list[command]);
+        }
+      }
+    });
+
+    this.magic.StartMagic();
   }
 
   getTaskId(parentId, subformName): TaskDescription {
@@ -78,7 +69,7 @@ export class MagicEngine {
 
   }
   saveData(data:string)  {
-    //this.magic.saveData(data);
+    // this.magic.saveData(data);
   }
 
 }
