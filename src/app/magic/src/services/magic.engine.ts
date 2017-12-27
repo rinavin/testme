@@ -19,11 +19,11 @@ export class MagicEngine {
   startMagic(httpService: Http) {
     this.magic.registerExecuteCommands(data => {
       if (!this.isStub) {
-        let list: GuiCommand[];
-        console.log('got commands!');
-        list = data as GuiCommand[];
-        for (let command in list) {
-          this.refreshDom.next(list[command]);
+        const list = data as GuiCommand[];
+        for (let c of list) {
+          console.dir(c);
+          console.log(c.TaskTag);
+          this.refreshDom.next(c);
         }
       }
     });
