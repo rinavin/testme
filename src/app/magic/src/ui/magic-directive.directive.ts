@@ -58,9 +58,9 @@ export class MagicDirectiveDirective implements OnInit {
     this.task
       .refreshDom
       .filter(updates => updates.CtrlName == this.id &&
-        (((!isNullOrUndefined(updates.line))
+        (((updates.line > 0)
           && updates.line.toString() == this.rowId) ||
-          ( isNullOrUndefined(updates.line) && (this.rowId == "0" || isNullOrUndefined(this.rowId) ))))
+          ( updates.line === 0 && (this.rowId == "0" || isNullOrUndefined(this.rowId) ))))
       .subscribe(a => {
           let command: GuiCommand = a;
           if (isNullOrUndefined(this.rowId))
